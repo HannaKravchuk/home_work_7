@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Div-span elementen</title>
+</head>
+
+<body>
+  <header>
+    <div class="bg-image"></div>
+    <div class="container">
+      <nav class="navbar">
+        <ol class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="../index.html">Home Page</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="div-span.html">Div-span elements</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="reset.html">Reset</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="normalize.html">Normalize</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="display.html">Display</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="float-clean.html">Float-clean</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="overflow.html">Overflow</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="position.html">Positioning</a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Experiments with div and span</h1>
+    <div class="block first-block">
+      <h2>What is the div element?</h2>
+      <p>The div element in HTML is a container used to group tpgether other elements. It doesn't add any special
+        styling or meaning by itelf - it is just a basic box or section. You can style it with css to change its size,
+        color, and position, or use it to organize your page layout. It is commonly used to wrap sections of website,
+        like headers, footers, or main content areas. If you dont't set a width for a div element, it will automatically
+        take up the full width available in its container, this means it will stretch to fill the width of its parent
+        element (like the body or another container), as much space as it's allowed.</p>
+    </div>
+    <div class="block second-block">
+      <h2>Div is a block-level element</h2>
+      <p>Div is a block-level element. This means it takes up the full width available and starts on a new line, pushing
+        other elements below it. It is used to group larger sections od content, like paragraphs, images, or other
+        blocks. You can set a specific width and heigth for a div element. Here's example in this block</p>
+    </div>
+    <span class="span">Span is an inline element. It only takes up as much space as needed and does not start on a new
+      line. It is used to style or control smaller pices of text or content within a line, like a word or a phrase
+      inside a paragraph.</span>
+    <p>This is a <span class="span roze">highlighted</span> span-word in the sentence.</p>
+    <div class="block">
+      <p>Here is the example span in div. The div is a container thaat holds a block of text, and the <span
+          class="roze">span</span> is used to apply special styling - like a different color or bolf font - to just a
+        small part of that text. The <span class="roze">span</span> doesn't create a new line or separate block; it
+        simply lets you style a part of the text differently within the same line.</p>
+    </div>
+    <div class="block block1">Div number 1</div>
+    <div class="block block2">Div number 2</div>
+    <div class="block block3">Div number 3
+      <div class="block block4">Div number 4
+        <div class="block block5">Div <span class="roze">number</span> 4</div>
+      </div>
+    </div>
+    <div class="block block__inline">Div number 6</div>
+    <div class="block block__inline">Div number 7</div>
+    <div class="block block__inline">Div number 8</div>
+    <span class="span-div block">Span like a div</span>
+    <span class="span-div block">Span like a div</span>
+    <span class="span-div block">Span like a div</span>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Hanna Kravchuk 2024</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

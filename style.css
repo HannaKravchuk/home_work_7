@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-image {
+    content: "";
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("image/fon.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: min(100% - 40px, 1024px);
+    margin: 0 auto;
+}
+
+.navbar__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar__link {
+    display: block;
+    color: inherit;
+    background-color: #f5e9d1;
+    margin-top: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 2px solid rgb(73, 66, 71);
+    border-radius: 5px;
+}
+
+.navbar__link:hover {
+    background-color: rgb(73, 66, 71);
+    border: 2px solid rgb(237, 205, 205);
+    color: aliceblue;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(171, 150, 120);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(29, 23, 33);
+}
+
+.block {
+    background-color: rgba(155, 105, 142, 0.174);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.second-block {
+    width: 80%;
+    height: fit-content;
+}
+
+.span {
+    background-color: rgba(155, 105, 142, 0.174);
+    border-radius: 15px;
+}
+
+.roze {
+    color: crimson;
+}
+
+.block1 {
+    width: 25%;
+}
+
+.block2 {
+    width: 50%;
+}
+
+.block3 {
+    width: 75%;
+}
+
+.block4 {
+    width: 50%;
+    background-color: chocolate;
+}
+
+.block5 {
+    width: 50%;
+    background-color: palevioletred;
+    text-transform: uppercase;
+}
+
+.block__inline {
+    display: inline-block;
+    width: 33%;
+    color: coral;
+}
+
+.span-div {
+    display: block;
+    width: 20%;
+}
+
+.hidden {
+    display: none;
+}
+
+.block-element {
+    display: block;
+}
+
+.inline-element {
+    display: inline;
+    color: crimson;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.float-left {
+    float: left;
+    width: 100px;
+}
+
+.item .item__list {
+    float: left;
+    width: 30%;
+    text-align: center;
+    background-color: darkolivegreen;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.card__item {
+    float: left;
+    width: 20%;
+    margin: 10px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+button {
+    font-size: 2em;
+    background-color: firebrick;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hidden-overflow {
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.scroll-overflow {
+    width: 400px;
+    height: 150px;
+    overflow: scroll;
+}
+
+.auto {
+    width: 400px;
+    height: 150px;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.visible {
+    width: 400px;
+    height: 150px;
+    overflow: visible;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: -60px;
+    left: 0;
+}
+
+.parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    left: 58px;
+    background-color: gold;
+    padding: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 40px;
+    right: 45%;
+    z-index: 1000;
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
